@@ -1,0 +1,6 @@
+
+> @dkc/web@1.0.0 type-check /home/waqas/projects/dkc-b2b/apps/web
+> tsc --noEmit
+
+src/components/sections/model/private-label.client.tsx(89,8): error TS2741: Property 'activeRole' is missing in type '{ data: { headline: string; description: string; roles: { buyer: { headline: string; description: string; }; vendor: { headline: string; description: string; }; }; items: string[]; capabilities: { sectionLabel: string; ... 4 more ...; impact: { ...; }[]; }; media: { ...; }; }; }' but required in type '{ data: any; activeRole: PlatformRole; }'.
+ ELIFECYCLE  Command failed with exit code 2.

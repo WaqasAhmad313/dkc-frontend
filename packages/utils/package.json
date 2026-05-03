@@ -1,0 +1,13 @@
+{
+  "name": "@dkc/utils",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@dkc/constants": "file:../constants"
+  }
+}
